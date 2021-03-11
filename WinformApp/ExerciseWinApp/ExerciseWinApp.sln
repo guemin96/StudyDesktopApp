@@ -19,6 +19,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateCalcApp", "DateCalcApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmClockApp", "AlarmClockApp\AlarmClockApp.csproj", "{6F14C9B2-BAED-4BAE-BD03-30A01F313AEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviePlayerApp", "MoviePlayerApp\MoviePlayerApp.csproj", "{BC2C6115-1581-4747-92BA-1DB8B3335FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextViewerApp", "TextViewerApp\TextViewerApp.csproj", "{D2EF7BA6-68B3-4BE1-A2AE-854D49E17C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGraphicEditor", "SimpleGraphicEditor\SimpleGraphicEditor.csproj", "{31DE9903-0459-4992-8AC0-EFD4A2A73591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWpfApp", "HelloWpfApp\HelloWpfApp.csproj", "{1F4B0200-1A3E-45EE-9C31-D45EAD2C429E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLayout", "WpfLayout\WpfLayout.csproj", "{C0690925-ED57-4EA5-A439-F55D583E1F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmlCalcApp", "BmlCalcApp\BmlCalcApp.csproj", "{F5B946D3-C92D-4E25-B43E-F2842AA4147D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkerApp", "BlinkerApp\BlinkerApp.csproj", "{D6EAFFE4-B54A-434A-B99F-AD7C379A906B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +71,34 @@ Global
 		{6F14C9B2-BAED-4BAE-BD03-30A01F313AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F14C9B2-BAED-4BAE-BD03-30A01F313AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F14C9B2-BAED-4BAE-BD03-30A01F313AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2C6115-1581-4747-92BA-1DB8B3335FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2C6115-1581-4747-92BA-1DB8B3335FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2C6115-1581-4747-92BA-1DB8B3335FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2C6115-1581-4747-92BA-1DB8B3335FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EF7BA6-68B3-4BE1-A2AE-854D49E17C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EF7BA6-68B3-4BE1-A2AE-854D49E17C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EF7BA6-68B3-4BE1-A2AE-854D49E17C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EF7BA6-68B3-4BE1-A2AE-854D49E17C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DE9903-0459-4992-8AC0-EFD4A2A73591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DE9903-0459-4992-8AC0-EFD4A2A73591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DE9903-0459-4992-8AC0-EFD4A2A73591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DE9903-0459-4992-8AC0-EFD4A2A73591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4B0200-1A3E-45EE-9C31-D45EAD2C429E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4B0200-1A3E-45EE-9C31-D45EAD2C429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4B0200-1A3E-45EE-9C31-D45EAD2C429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4B0200-1A3E-45EE-9C31-D45EAD2C429E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0690925-ED57-4EA5-A439-F55D583E1F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0690925-ED57-4EA5-A439-F55D583E1F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0690925-ED57-4EA5-A439-F55D583E1F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0690925-ED57-4EA5-A439-F55D583E1F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B946D3-C92D-4E25-B43E-F2842AA4147D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B946D3-C92D-4E25-B43E-F2842AA4147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B946D3-C92D-4E25-B43E-F2842AA4147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B946D3-C92D-4E25-B43E-F2842AA4147D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EAFFE4-B54A-434A-B99F-AD7C379A906B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EAFFE4-B54A-434A-B99F-AD7C379A906B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EAFFE4-B54A-434A-B99F-AD7C379A906B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EAFFE4-B54A-434A-B99F-AD7C379A906B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

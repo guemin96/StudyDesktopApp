@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AlarmClockApp
+namespace MoviePlayerApp
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace AlarmClockApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAlarm());
+            Application.Run(new FrmPlayer());
         }
     }
 }
