@@ -19,7 +19,7 @@ namespace ImageViewerApp
 
         private void MnuSelectImage_Click(object sender, EventArgs e)
         {
-            DlgOpenImage.Filter = "Jpg 파일 (*.jpg)|*.jpg|png 파일 (*.png)|*.png|모든 파일 (*.*)|*.*";
+            DlgOpenImage.Filter = "Jpg 파일 (*.jpg)|*.jpg|png 파일 (*.png)|*.png|모든 파일 (*.*)|*.*";//filter는 파일형식!
             DlgOpenImage.Title = "이미지 열기";
             if (DlgOpenImage.ShowDialog()==DialogResult.OK)
             {
