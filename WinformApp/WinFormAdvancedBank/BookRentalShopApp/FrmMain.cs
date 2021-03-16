@@ -1,0 +1,32 @@
+﻿using MetroFramework.Forms;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BookRentalShopApp
+{
+    public partial class FrmMain : MetroForm //metro폼을 가진 폼이 나타남 
+    {
+        public FrmMain()
+        {
+            InitializeComponent();
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void FrmMain_Shown(object sender, EventArgs e)
+        {
+            FrmLogin frm = new FrmLogin();
+            frm.ShowDialog();
+        }
+    }
+}
