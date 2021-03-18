@@ -30,20 +30,6 @@ namespace BookRentalShopApp
             frm.ShowDialog();
         }
 
-        
-        
-        private void InitChildForm(Form frm, string strTitle)
-        {
-            frm.Text = strTitle;
-            frm.Dock = DockStyle.Fill;
-            frm.MdiParent = this; // FrmMain
-            frm.FormBorderStyle = FormBorderStyle.None;
-            frm.Width = this.ClientSize.Width - 1000; // 추가
-            frm.Height = this.Height - menuStrip1.Height; // 추가
-            frm.Show();
-            frm.WindowState = FormWindowState.Normal;
-        }
-
         private void 구분코드CToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmDivCode frm = new FrmDivCode();
@@ -59,7 +45,6 @@ namespace BookRentalShopApp
         {
             Environment.Exit(0);
         }
-        
 
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -79,6 +64,24 @@ namespace BookRentalShopApp
         {
             FrmBooks frm = new FrmBooks();
             InitChildForm(frm, "책 관리");
+        }
+
+        private void 대여ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRental frm = new FrmRental();
+            InitChildForm(frm, "대여 관리");
+        }
+
+        private void InitChildForm(Form frm, string strTitle)
+        {
+            frm.Text = strTitle;
+            frm.Dock = DockStyle.Fill;
+            frm.MdiParent = this;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Width = this.ClientSize.Width - 10; // 추가
+            frm.Height = this.Height - menuStrip1.Height; // 추가
+            frm.Show();
+            frm.WindowState = FormWindowState.Maximized;
         }
     }
 }

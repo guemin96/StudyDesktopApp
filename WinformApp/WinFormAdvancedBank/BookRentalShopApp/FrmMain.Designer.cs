@@ -95,6 +95,7 @@ namespace BookRentalShopApp
             this.대여ToolStripMenuItem.Name = "대여ToolStripMenuItem";
             this.대여ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.대여ToolStripMenuItem.Text = "대여(&R)";
+            this.대여ToolStripMenuItem.Click += new System.EventHandler(this.대여ToolStripMenuItem_Click);
             // 
             // 종료XToolStripMenuItem
             // 
