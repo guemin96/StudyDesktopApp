@@ -58,6 +58,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmDivCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDivCode.Designer.cs">
+      <DependentUpon>FrmDivCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBooks.Designer.cs">
+      <DependentUpon>FrmBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember.Designer.cs">
+      <DependentUpon>FrmMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\Common.cs" />
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -73,6 +91,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBooks.resx">
+      <DependentUpon>FrmBooks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>

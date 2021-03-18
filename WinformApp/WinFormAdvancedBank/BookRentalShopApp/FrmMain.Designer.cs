@@ -69,18 +69,21 @@ namespace BookRentalShopApp
             this.구분코드CToolStripMenuItem.Name = "구분코드CToolStripMenuItem";
             this.구분코드CToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.구분코드CToolStripMenuItem.Text = "구분코드(&C)";
+            this.구분코드CToolStripMenuItem.Click += new System.EventHandler(this.구분코드CToolStripMenuItem_Click);
             // 
             // 회원PToolStripMenuItem
             // 
             this.회원PToolStripMenuItem.Name = "회원PToolStripMenuItem";
             this.회원PToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.회원PToolStripMenuItem.Text = "회원(&P)";
+            this.회원PToolStripMenuItem.Click += new System.EventHandler(this.회원PToolStripMenuItem_Click);
             // 
             // 도서BToolStripMenuItem
             // 
             this.도서BToolStripMenuItem.Name = "도서BToolStripMenuItem";
             this.도서BToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.도서BToolStripMenuItem.Text = "도서(&B)";
+            this.도서BToolStripMenuItem.Click += new System.EventHandler(this.도서BToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -98,6 +101,7 @@ namespace BookRentalShopApp
             this.종료XToolStripMenuItem.Name = "종료XToolStripMenuItem";
             this.종료XToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.종료XToolStripMenuItem.Text = "종료(&X)";
+            this.종료XToolStripMenuItem.Click += new System.EventHandler(this.종료XToolStripMenuItem_Click);
             // 
             // FrmMain
             // 
@@ -111,6 +115,7 @@ namespace BookRentalShopApp
             this.Name = "FrmMain";
             this.Text = "책 대여점 프로그램";
             this.TransparencyKey = System.Drawing.Color.Empty;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.menuStrip1.ResumeLayout(false);

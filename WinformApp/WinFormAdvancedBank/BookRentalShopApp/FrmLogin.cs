@@ -1,4 +1,5 @@
-﻿using MetroFramework.Forms;
+﻿using MetroFramework;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,9 @@ namespace BookRentalShopApp
         }
         private void BtnLogin_Click(object sender, EventArgs e)
         {
+
+            var strUserId = "";
+
             if (string.IsNullOrEmpty(TxtUserId.Text)||string.IsNullOrEmpty(TxtPassword.Text))
             {
                 MessageBox.Show(this, "아이디/패스워드를 입력하세요.", "오류", 
@@ -42,8 +46,21 @@ namespace BookRentalShopApp
                     SqlParameter param;
                     //sqlDataReader 실행(1)
                     SqlDataReader reader = cmd.ExecuteReader();
-                
+
                     // reader로 처리
+                    reader.Read();
+                    strUserId = reader["userID"] != null ? reader["userID"].ToString() : "";
+                    reader.Close();
+                    //확인 MessageBox.show(strUserID);
+                    if (string.IsNullOrEmpty(strUserId))
+                    {
+                        MetroMessageBox.Show(this,"접속실패","로그인실패", MessageBoxButtons.OK,MessageBoxIcon.Error)
+                            return;
+                    }
+                    else
+                    {
+                        var updateQuery = $@"UPDATE "
+                    }
                 }
             }
             catch (Exception ex)
