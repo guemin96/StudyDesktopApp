@@ -21,7 +21,7 @@ namespace BookRentalShopApp
         }
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-            this.Activate();
+           // this.Activate();
         }
         private void BtnLogin_Click(object sender, EventArgs e)
         {

@@ -121,7 +121,7 @@ namespace BookRentalShopApp
             {
                 var temp = new Dictionary<string, string>();
                 temp.Add("R", "대여중");
-                temp.Add("L", "반납");
+                temp.Add("T", "반납");
 
                 CboRentalState.DataSource = new BindingSource(temp, null); //dataMember ull
                 CboRentalState.DisplayMember = "Value";
@@ -352,7 +352,7 @@ namespace BookRentalShopApp
             TxtReturnDate.Text = "";
             CboRentalState.SelectedIndex = -1;
 
-            BtnSearchBook.Enabled = BtnSearchMember.Enabled = false;
+            BtnSearchBook.Enabled = BtnSearchMember.Enabled = true;
             DtpRentalDate.Enabled = true;
             isNew = true;
         }
