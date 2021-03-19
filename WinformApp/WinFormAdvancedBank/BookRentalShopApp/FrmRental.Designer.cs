@@ -31,6 +31,7 @@ namespace BookRentalShopApp
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRental));
             this.GrbDetail = new System.Windows.Forms.GroupBox();
+            this.TxtReturnDate = new MetroFramework.Controls.MetroTextBox();
             this.CboRentalState = new System.Windows.Forms.ComboBox();
             this.BtnSearchBook = new System.Windows.Forms.Button();
             this.BtnSearchMember = new System.Windows.Forms.Button();
@@ -47,7 +48,6 @@ namespace BookRentalShopApp
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.DgvData = new System.Windows.Forms.DataGridView();
-            this.TxtReturnDate = new MetroFramework.Controls.MetroTextBox();
             this.GrbDetail.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvData)).BeginInit();
             this.SuspendLayout();
@@ -79,6 +79,36 @@ namespace BookRentalShopApp
             this.GrbDetail.TabIndex = 0;
             this.GrbDetail.TabStop = false;
             this.GrbDetail.Text = "상세";
+            // 
+            // TxtReturnDate
+            // 
+            // 
+            // 
+            // 
+            this.TxtReturnDate.CustomButton.Image = null;
+            this.TxtReturnDate.CustomButton.Location = new System.Drawing.Point(192, 1);
+            this.TxtReturnDate.CustomButton.Name = "";
+            this.TxtReturnDate.CustomButton.Size = new System.Drawing.Size(15, 15);
+            this.TxtReturnDate.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TxtReturnDate.CustomButton.TabIndex = 1;
+            this.TxtReturnDate.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TxtReturnDate.CustomButton.UseSelectable = true;
+            this.TxtReturnDate.CustomButton.Visible = false;
+            this.TxtReturnDate.Lines = new string[0];
+            this.TxtReturnDate.Location = new System.Drawing.Point(98, 161);
+            this.TxtReturnDate.MaxLength = 32767;
+            this.TxtReturnDate.Name = "TxtReturnDate";
+            this.TxtReturnDate.PasswordChar = '\0';
+            this.TxtReturnDate.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtReturnDate.SelectedText = "";
+            this.TxtReturnDate.SelectionLength = 0;
+            this.TxtReturnDate.SelectionStart = 0;
+            this.TxtReturnDate.ShortcutsEnabled = true;
+            this.TxtReturnDate.Size = new System.Drawing.Size(208, 17);
+            this.TxtReturnDate.TabIndex = 12;
+            this.TxtReturnDate.UseSelectable = true;
+            this.TxtReturnDate.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TxtReturnDate.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // CboRentalState
             // 
@@ -307,36 +337,6 @@ namespace BookRentalShopApp
             this.DgvData.Size = new System.Drawing.Size(401, 412);
             this.DgvData.TabIndex = 1;
             this.DgvData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvData_CellClick);
-            // 
-            // TxtReturnDate
-            // 
-            // 
-            // 
-            // 
-            this.TxtReturnDate.CustomButton.Image = null;
-            this.TxtReturnDate.CustomButton.Location = new System.Drawing.Point(192, 1);
-            this.TxtReturnDate.CustomButton.Name = "";
-            this.TxtReturnDate.CustomButton.Size = new System.Drawing.Size(15, 15);
-            this.TxtReturnDate.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TxtReturnDate.CustomButton.TabIndex = 1;
-            this.TxtReturnDate.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TxtReturnDate.CustomButton.UseSelectable = true;
-            this.TxtReturnDate.CustomButton.Visible = false;
-            this.TxtReturnDate.Lines = new string[0];
-            this.TxtReturnDate.Location = new System.Drawing.Point(98, 162);
-            this.TxtReturnDate.MaxLength = 32767;
-            this.TxtReturnDate.Name = "TxtReturnDate";
-            this.TxtReturnDate.PasswordChar = '\0';
-            this.TxtReturnDate.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtReturnDate.SelectedText = "";
-            this.TxtReturnDate.SelectionLength = 0;
-            this.TxtReturnDate.SelectionStart = 0;
-            this.TxtReturnDate.ShortcutsEnabled = true;
-            this.TxtReturnDate.Size = new System.Drawing.Size(208, 17);
-            this.TxtReturnDate.TabIndex = 12;
-            this.TxtReturnDate.UseSelectable = true;
-            this.TxtReturnDate.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TxtReturnDate.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // FrmRental
             // 
