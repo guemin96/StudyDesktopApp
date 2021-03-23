@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUITestApp", "ModernUI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPracticeApp", "WpfPracticeApp\WpfPracticeApp.csproj", "{66BBCB0F-48B2-4D5E-AB28-807540446F3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoResistorMonApp", "PhotoResistorMonApp\PhotoResistorMonApp.csproj", "{5934E3AC-F08C-42D7-9A0A-56AFD74B099D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{66BBCB0F-48B2-4D5E-AB28-807540446F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BBCB0F-48B2-4D5E-AB28-807540446F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BBCB0F-48B2-4D5E-AB28-807540446F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5934E3AC-F08C-42D7-9A0A-56AFD74B099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5934E3AC-F08C-42D7-9A0A-56AFD74B099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5934E3AC-F08C-42D7-9A0A-56AFD74B099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5934E3AC-F08C-42D7-9A0A-56AFD74B099D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

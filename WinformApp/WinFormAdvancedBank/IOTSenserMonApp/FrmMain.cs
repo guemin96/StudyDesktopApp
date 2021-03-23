@@ -131,11 +131,22 @@ namespace IOTSenserMonApp
             timerSimul.Tick += Timersimul_Tick;
             timerSimul.Start();
         }
-
+        private long timespan = 0;
+        private int randMaxVal = 0;
         private void Timersimul_Tick(object sender, EventArgs e)
         
         {
-            int value = randPhoto.Next(1, 1023); //1~1023까지 사이의 값
+            timespan += 1;
+            var temp = timespan % 30;
+            if (temp.ToString().Length==2)
+            {
+                randMaxVal = 980;
+            }
+            else
+            {
+                randMaxVal = 120;
+            }
+            int value = randPhoto.Next(10, 1023); //1~1023까지 사이의 값
             ShowSensorValue(value.ToString());
 
         }
