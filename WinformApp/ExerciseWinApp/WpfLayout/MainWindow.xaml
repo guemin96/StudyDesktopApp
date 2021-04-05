@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfLayout"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <UniformGrid Background="Bisque" Orientation="Horizontal">
+    <UniformGrid Background="Bisque" HorizontalAlignment="Stretch">
         <Button Content="Click me!" Margin="10"  />
         <Button Content="I am new button!" Margin="10" />
         <Button Content="Click me!" Margin="10" />
