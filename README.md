@@ -32,8 +32,6 @@ C# 데스크톱 앱 개발 학습 리포지토리
     
 <kbd>![RadioWinapp](https://github.com/guemin96/StudyDesktopApp/blob/main/%EA%B9%83%ED%97%88%EB%B8%8C%EC%BA%A1%EC%B2%98/PracticeWinApp/RadioWinapp%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.JPG)<br></kbd>
 
-##### 8. 로그인App
-    
-<kbd>![Favorite Fruit App ](https://github.com/guemin96/StudyDesktopApp/blob/main/%EA%B9%83%ED%97%88%EB%B8%8C%EC%BA%A1%EC%B2%98/PracticeWinApp/%EB%A1%9C%EA%B7%B8%EC%9D%B8App%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.JPG)<br></kbd>
+-----------------------------------
 
-
+#### PracticeWinApp
